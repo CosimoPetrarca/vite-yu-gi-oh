@@ -13,11 +13,14 @@ export default {
 </script>
 
 <template>
-    <MainSearch />
-    <MainList />
-    <MainFound />
+   <div>
+        <MainSearch />
+        <MainFound />
+        <MainList />
+    </div>
 </template>
 
 
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+</style>
