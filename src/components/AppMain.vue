@@ -1,16 +1,17 @@
 <script>
-    export default {
-        name: 'Main'
+import MainSearch from './MainSearch.vue';
+export default {
+    name: 'Main',
+    components: {
+        MainSearch
     }
+}
 </script>
 
 <template>
-    <div>
-        Main
-    </div>
+    <MainSearch />
 </template>
 
 
 
-<style lang="scss" scoped>
-</style>
+<style lang="scss" scoped></style>
