@@ -6,10 +6,8 @@ export default {
         name: String,
         type: String
     }
-
 }
 </script>
-
 
 <template>
     <div class="card text-center">
@@ -19,13 +17,13 @@ export default {
     </div>
 </template>
 
-
 <style lang="scss" scoped>
 .card {
     width: 100%;
     background-color: orange;
+    margin-bottom: 20px;
 
-    h5{
+    h5 {
         color: white;
         padding-top: 20px;
     }
