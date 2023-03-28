@@ -13,7 +13,7 @@ export default {
 </script>
 
 <template>
-   <div>
+   <div class="">
         <MainSearch />
         <MainFound />
         <MainList />
@@ -23,4 +23,8 @@ export default {
 
 
 <style lang="scss" scoped>
+div{
+    background-color: orange;
+}
+
 </style>

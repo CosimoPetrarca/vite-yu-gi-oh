@@ -17,7 +17,7 @@ export default {
 <template>
     <div class="container">
         <div class="row">
-            <div v-for="(card, index) in store.cards" class="col-3">
+            <div v-for="(card, index) in store.cards.slice(0,50)" class="col-3 card">
                 <MainCard :img="card.card_images[0].image_url" :name="card.name" :type="card.type" />
             </div>
         </div>
@@ -26,4 +26,10 @@ export default {
 
 
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.container{
+    background-color: white;
+    
+}
+
+</style>
